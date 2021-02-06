@@ -1,3 +1,13 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
 # ==========================
 # server machine
 # -------------------------
@@ -24,3 +34,23 @@ tags
 
 # Some project specific folders
 build
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.mod
+# Others
+*.csv
+*.xlsx
+!Makefile
+!mk
+!makefile
+**/__pycache__/
+~/dev/src/github.com/mysrc/echo/echo_dictionaries
+*.txt
+~/dev/src/gitlab.com/akita/navisim/rdnainsts/rdnadisassembler/fir
+~/dev/src/gitlab.com/akita/navisim/rdnainsts/rdnadisassembler/relu/*.*
